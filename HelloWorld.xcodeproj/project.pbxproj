@@ -14,6 +14,12 @@
 		ECCA4BC5297C6332002000AF /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA4BC4297C6332002000AF /* HelloWorldTests.swift */; };
 		ECCA4BCF297C6332002000AF /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA4BCE297C6332002000AF /* HelloWorldUITests.swift */; };
 		ECCA4BD1297C6332002000AF /* HelloWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA4BD0297C6332002000AF /* HelloWorldUITestsLaunchTests.swift */; };
+		ECCA4BE4297D6CDA002000AF /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA4BE3297D6CDA002000AF /* Counter.swift */; };
+		ECCA4BE5297D6CDA002000AF /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA4BE3297D6CDA002000AF /* Counter.swift */; };
+		ECCA4BE6297D6CDA002000AF /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA4BE3297D6CDA002000AF /* Counter.swift */; };
+		ECCA4BEC297D7B1A002000AF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA4BEB297D7B1A002000AF /* ListView.swift */; };
+		ECCA4BED297D7B1A002000AF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA4BEB297D7B1A002000AF /* ListView.swift */; };
+		ECCA4BEE297D7B1A002000AF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA4BEB297D7B1A002000AF /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,8 @@
 		ECCA4BCA297C6332002000AF /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCA4BCE297C6332002000AF /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		ECCA4BD0297C6332002000AF /* HelloWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECCA4BE3297D6CDA002000AF /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		ECCA4BEB297D7B1A002000AF /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +105,9 @@
 				ECCA4BB3297C6331002000AF /* HelloWorldApp.swift */,
 				ECCA4BB5297C6331002000AF /* ContentView.swift */,
 				ECCA4BB7297C6332002000AF /* Assets.xcassets */,
+				ECCA4BE3297D6CDA002000AF /* Counter.swift */,
 				ECCA4BB9297C6332002000AF /* Preview Content */,
+				ECCA4BEB297D7B1A002000AF /* ListView.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -257,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCA4BEC297D7B1A002000AF /* ListView.swift in Sources */,
+				ECCA4BE4297D6CDA002000AF /* Counter.swift in Sources */,
 				ECCA4BB6297C6331002000AF /* ContentView.swift in Sources */,
 				ECCA4BB4297C6331002000AF /* HelloWorldApp.swift in Sources */,
 			);
@@ -266,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCA4BE5297D6CDA002000AF /* Counter.swift in Sources */,
 				ECCA4BC5297C6332002000AF /* HelloWorldTests.swift in Sources */,
+				ECCA4BED297D7B1A002000AF /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCA4BEE297D7B1A002000AF /* ListView.swift in Sources */,
 				ECCA4BD1297C6332002000AF /* HelloWorldUITestsLaunchTests.swift in Sources */,
 				ECCA4BCF297C6332002000AF /* HelloWorldUITests.swift in Sources */,
+				ECCA4BE6297D6CDA002000AF /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
